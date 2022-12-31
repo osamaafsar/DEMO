@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:text="CRACK"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+<View
+    android:layout_width="400dp"
+    android:layout_height="1dp"
+    android:background="#ACA1A1"
+    android:layout_gravity="center"
+    android:layout_marginTop="2dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Override lane"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"/>
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:background="#5676"
+        android:layout_marginLeft="3dp"/>
+</LinearLayout>
+<TextView
+    android:id="@+id/userAlert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textColor="#B71C1C"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chainage in working lane"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp" />
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:background="#5676"
+        android:layout_marginLeft="13dp"
+        android:inputType="textPassword" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crack length"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp" />
+    <EditText
+        android:id="@+id/userContact"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:background="#5676"
+        android:layout_marginLeft="32dp"
+        android:inputType="number" />
+
+</LinearLayout>
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"/>
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free text"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"/>
+    <EditText
+        android:id="@+id/usercomment"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:background="#5676"/>
+
+</LinearLayout>
+<Button
+    android:id="@+id/btnSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Click To Submit"
+    android:textColor="#F5FBF6"
+    android:background="#B71C1C"
+    android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+
+
