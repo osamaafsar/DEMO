@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import java.util.Locale;
-
+//comment code
 public class MainActivity extends AppCompatActivity {
 
     Button screen1,screen2,screen3;
